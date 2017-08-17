@@ -1,0 +1,136 @@
+body {
+  margin : 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin : 0;
+}
+
+li {
+  font-size: 18px;
+}
+
+a {
+  color : white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;  
+}
+
+.title-wrapper {
+  width : 100%;
+  height : 100px;
+  background-color : black;
+}
+
+.title-button-wrapper {
+  width : 100px;
+  height : 100%;
+  display : inline-block;
+  color : white;
+  font-size : 20px;
+}
+
+.title-button-wrapper:hover {
+  color : black;
+  background-color : white;
+  cursor : pointer;
+  transition : .5s ease;
+}
+
+.title-button-content {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  height: 100%;
+}
+
+.title-button {
+  display : none;
+}
+
+#title-name-wrapper {
+  width : 200px;
+  height : 100%;
+  display : inline-block;
+  color : white;
+  font-size : 24px;
+  font-weight : bold;
+  text-align : center;
+}
+
+#title-name-content {
+  display : flex;
+  padding-left : 10px;
+  justify-content : left;
+  align-items : center;
+  height: 100%;
+}
+
+.content-wrapper {
+  display: inline-block;
+  background-color : white;
+  vertical-align: top;
+  width : 50%;
+  height: 400px;
+}
+
+.content-padding {
+  padding : 10px 10px 10px 10px;
+}
+
+#contents {
+  background-color : rgb(200,200,200);
+  color: black;
+}
+
+#profile {
+  background-color : rgb(50,50,50);
+  color: white;
+}
+
+#skills {
+  background-color : rgb(220,220,220);
+  color: black;
+}
+
+#projects {
+  color : white;
+  background-color : black;
+}
+
+.projects-title {
+  margin-bottom : 20px;
+}
+
+.project-padding {
+  width : 90%;
+  border : 1px solid white;
+  border-radius : 5px;
+  margin : 0 auto;
+  margin-bottom : 10px;
+  padding : 10px 10px 10px 10px;
+}
+
+.project-padding:hover {
+  background-color : white;
+  color : black;
+  transition : .5s ease;
+  cursor : pointer;
+}
+
+.project-name {
+  display : inline-block;
+  width : 30%;
+  font-size : 24px;
+  font-weight : bold;
+  vertical-align : top;
+}
+
+.project-discription {
+  display: inline-block;
+  width: 70%;
+}
